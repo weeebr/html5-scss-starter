@@ -1,1 +1,1 @@
-"# html5-scss-starter" 
+# html5-scss-starter
