@@ -3,25 +3,144 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>HTML5 SCSS Starter</title>
-  <link rel="stylesheet" href="css/main.css">
+  <title>Capsule Natur & Bio</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./slick/slick.css">
+  <link rel="stylesheet" href="./slick/slick-theme.css">
 </head>
 <body>
 	<header>
-		<ul class="nav-menu">
-			<li class="nav-item"><a href="#1">About us</a></li>
-			<li class="nav-item"><a href="#2">Team</a></li>
-			<li class="nav-item"><a href="#3">Visit us</a></li>
-			<li class="nav-item"><a href="#4">Contact</a></li>
-		</ul>
+		<img class="logo" src="./img/Logo-Blatt.png" alt="Logo" />
+		<nav class="nav-menu">
+			<a href="#nahrungsergaenzungsmittel">Nahrungsergänzungsmittel</a>
+			<a href="#herstellung">Herstellung</a>
+			<a href="#about-us">Über uns</a>
+			<a href="#contact">Kontakt</a>
+		</nav>
 	</header>
 	
-	<section id="1">hi</section>
-	<section id="2">hi</section>
-	<section id="3">hi</section>
-	<section id="4">hi</section>
+	<section id="nahrungsergaenzungsmittel">
+		<div class="wrapper">
+			<div class="title">
+				<div class="first-line">Ihr Hersteller für</div>
+				<div class="second-line">Nahrungsergänzungsmittel</div>
+			</div>
+			<div class="content">
+				<p>Haben sie eine Standardrezeptur oder ein individuelles Rezept?</p>
+				<p>Wir von <strong>Capsule Natur & Bio</strong> können Ihr Projekt mit Qualität und Professionalität verwirklichen.</p>
+				<p>Ob Sie kleinere oder größere Mengen Ihres Produkts mit unserer Hilfe bearbeiten wollen, als Familienbetrieb stehen wir Ihnen gerne mit viel Hingabe und Rat jederzeit zur Verfügung.</p>
+			</div>
+		</div>
+	</section>
+	<section id="herstellung">
+			<div class="wrapper">
+				<div class="title">
+					<div class="first-line">Kapseln, für die einfache Einnahme von</div>
+					<div class="second-line">Nahrungsergänzungsmitteln</div>
+				</div>
+				<div class="content">
+						<p>Durch unsere langjährige Erfahrung können wir unsere Gelatinkapseln auf Cellulose-Basis mit allzu jedem Granulat oder pulverförmigen Rohstoff auch auf genaue Dosierung
+						befüllen. Ihre Ware kann innerhalb einer Woche nach Eingang bearbeitet und geliefert werden. Gerne stehen wir Ihnen auch bei der Beratung von speziellen Rezeptwünschen zur Seite. Die Hartkapseln auf Cellulose-Basis sind dazu sehr einfach zu öffnen, sodass die Dosierung mit Leichtigkeit auch nach der Produktion individuell gestaltet werden kann.
+						</p>
+						<p>Zur Verdeutlichung unserer Produktion sind für Sie ein paar Beispiele der gängigsten Produkte aufgelistet, an denen wir häufig arbeiten:</p>
+						<div class="products-slider">
+								
+							<!--
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Schisandra Ext</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Bromelain + Papain</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Ashwagandha Ext</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>L-Carnosin</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Gotu Kola</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Gelee Royal + Roter Ginseng + Vit. D2</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Ginkgo+Ginseng</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Grüner Tee Ext</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Artischocken Ext.</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Alpha Liponsäure</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Kollagen Peptan F</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Citrus + Zink + Vit. C</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Astax. + Moringa + Vit. B</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Taigawrzel</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Vit. B kom. Robertheke</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>L Glutamin</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Baicalin </p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Ginkgo Biloba</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Mariendistel </p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Artischocken + Mariendistel</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>BioColostrumfreeze-dried</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Cat Claw</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Weißdorn</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Bio Konjak</p></div>
+								<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Schisandra_rubriflora.jpg/225px-Schisandra_rubriflora.jpg" /><p>Astaxanthin + Vitamin C</p></div>
+							-->
+							<div><img src="http://placehold.it/700x100?text=Schisandra Ext" /></div>			
+							<div><img src="http://placehold.it/700x100?text=Bromelain%2BPapain" /></div>			
+							<div><img src="http://placehold.it/700x100?text=Ashwagandha Ext" /></div>			
+						</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="wrapper">
+				<div class="title">
+					<div class="first-line">Kontakt</div>
+				</div>
+				<div class="content">
+						<p>
+							<strong>Capsule, Natur & Bio UG</strong><br />
+							<br />
+							Sophienstraße 2a<br />
+							49356 Diepholz<br />
+							Niedersachsen / Germany<br />
+							05441/975113<br />
+							<a href="mailto:contact@capsulenaturbio.com">contact@capsulenaturbio.com</a>
+						</p>
+
+						<p>Besuchen Sie uns bald auf folgenden sozialen Netzwerken:</p>
+						<a href="#"><img src="./img/icons/fb.png" /></a>
+						<a href="#"></a><img src="./img/icons/instagram.png" /></a>
+				</div>
+			</div>
+		</section>
+
+		<section id="about-us">
+			<div class="wrapper">
+			<div class="title">
+				<div class="first-line">Über uns</div>
+			</div>
+			<div class="content">
+				<table>
+					<tr>
+						<td>
+							<p>Capsule Natur & Bio UG<br />
+								<br />
+							Sophienstr. 2A<br />
+							49356 Diepholz<br /></p>
+						</td>
+						<td></td>
+						<td>
+							<p>Kreissparkasse Grafschaft Diepholz<br />
+							<br />
+							BLZ: 25651325<br />
+							Konto-Nr.: 191347756<br />
+							Konto Inh.: Capsule Natur & Bio UG<br />
+							IBAN:DE57256513250191347756<br />
+							BIC: BRLADE21DHZ<br /></p>
+						</td>
+						<td></td>
+						<td><p>
+							Steuernummer: 45/202/11912</p>
+						</td>
+					</tr>
+				</table>        
+			</div>
+		</div>
+	</section>
 	
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="js/scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="./js/hammer.min.js"></script>
+	<script src="./js/jquery.hammer.js"></script>
+	<script src="./slick/slick.min.js"></script>
+	<script src="./js/scripts.js"></script>
 </body>
 </html>

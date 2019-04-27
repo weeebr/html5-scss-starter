@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "scss:to-css": "node-sass -o css scss --output-style compressed",
-    "scss:prefixes": "npx postcss css/*.css --use autoprefixer -d css/ --no-map",
+    "scss:prefixes": "npx postcss css/*.css --use autoprefixer -d css/",
     "scss:deploy": "npm run scss:to-css && npm run scss:prefixes",
     "scss:watch": "onchange \"scss/**/*.scss\" -- npm run scss:to-css",
     "img:deploy": "imagemin --out-dir=img img/**/*.{png,jpg,gif}",
     "deploy": "npm run scss:deploy && npm run img:deploy",
-    "serve": "live-server .",
+    "serve": "live-server . --ignore=node_modules",
     "dev": "npm-run-all --parallel scss:watch serve"
   },
   "devDependencies": {
