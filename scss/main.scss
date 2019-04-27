@@ -95,6 +95,10 @@ body {
 
     &#about-us, &#contact {
       padding-bottom: 20px;
+
+      .wrapper .content {
+        margin-top: -68px;
+      }
     }
 
     &#contact {
@@ -106,6 +110,11 @@ body {
         a {
           color: white;
           text-decoration: none;
+        }
+
+        .social-icons {
+          margin-right: 12px;
+          margin-left: -6px;
         }
       }
     }
